@@ -1,3 +1,8 @@
+// More info about how user.js works:
+// - https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.1-Overview
+// - http://kb.mozillazine.org/User.js_file
+
+
 // Switch among the recently used tabs when pressing ctrl+tab (super useful!)
 user_pref("browser.ctrlTab.recentlyUsedOrder", true);
 
