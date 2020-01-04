@@ -4,6 +4,14 @@ post_install() {
     [[ -z "${profile_path}" ]] && { warn "No Firefox profile path found."; return; }
 
     link_to "$PEARL_PKGDIR"/user.js "${profile_path}"/user.js
+
+    info "List of Firefox add-ons you may be interested yo install:"
+    echo "    - AdBlocker for YouTube: https://addons.mozilla.org/it/firefox/addon/adblock-for-youtube/"
+    echo "    - Tampermonkey: https://addons.mozilla.org/it/firefox/addon/tampermonkey/"
+    echo "    - Tree Style Tab: https://addons.mozilla.org/it/firefox/addon/tree-style-tab/"
+    echo "    - Vim Vixen: https://addons.mozilla.org/it/firefox/addon/vim-vixen/"
+    echo "    - Easy Youtube Video Downloader Express: https://addons.mozilla.org/it/firefox/addon/easy-youtube-video-download/"
+
     return 0
 }
 
