@@ -11,6 +11,7 @@ post_install() {
     echo "    - Tree Style Tab: https://addons.mozilla.org/it/firefox/addon/tree-style-tab/"
     echo "    - Vim Vixen: https://addons.mozilla.org/it/firefox/addon/vim-vixen/"
     echo "    - Easy Youtube Video Downloader Express: https://addons.mozilla.org/it/firefox/addon/easy-youtube-video-download/"
+    echo "    - In My Pocket: https://addons.mozilla.org/en-US/firefox/addon/in-my-pocket/"
 
     return 0
 }
