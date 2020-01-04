@@ -5,7 +5,7 @@ post_install() {
 
     link_to "$PEARL_PKGDIR"/user.js "${profile_path}"/user.js
 
-    info "List of Firefox add-ons you may be interested yo install:"
+    info "List of Firefox add-ons you may be interested to install:"
     echo "    - AdBlocker for YouTube: https://addons.mozilla.org/it/firefox/addon/adblock-for-youtube/"
     echo "    - Tampermonkey: https://addons.mozilla.org/it/firefox/addon/tampermonkey/"
     echo "    - Tree Style Tab: https://addons.mozilla.org/it/firefox/addon/tree-style-tab/"
