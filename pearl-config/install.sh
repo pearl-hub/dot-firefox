@@ -39,6 +39,8 @@ _detect_profile_path() {
     fi
     mkdir -p "${profiles_path}"
 
+    [[ "$(ls -A ${profiles_path})" ]] || return
+
     local profile_list=()
     for profile in "$profiles_path"/*
     do
