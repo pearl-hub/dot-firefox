@@ -37,6 +37,7 @@ _detect_profile_path() {
     else
         local profiles_path="$HOME/.mozilla/firefox"
     fi
+    mkdir -p "${profiles_path}"
 
     local profile_list=()
     for profile in "$profiles_path"/*
